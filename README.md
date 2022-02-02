@@ -18,4 +18,10 @@ Comme rendu, nous attendons la requête utilisé.
 Montrez nous les modifications effectués.
 
 
-## 1 - Request Smuggling
+## 2 - Request Smuggling
+
+1 - Aller dans le dossier request-smuggling ``cd request-smuggling``
+
+2 - Lancer la commande ``docker-compose up``
+
+3 - 
