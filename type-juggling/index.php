@@ -25,7 +25,7 @@ HTML;
 });
 
 
-$router->post('/login', function($request) {
+$router->post('/', function($request) {
   $login = "admin";
   $pass = "xbxXoNKUqZj5Kl20lhB3HuXeQwx5yKWPpVwesxOtQXs4f54wq5ejH4Esi4yBVkUYwWDIcIySshvEFBG5Lby8WAfwwgS3VEPEYpoW";
   $body = $request->getBody();
@@ -48,7 +48,7 @@ $router->post('/login', function($request) {
             <title>Raté</title>
         </head>
         <html>
-            <h1> Mauvais Mot de passe </h1>
+            <h1> Login ou Mot de passe incorect </h1>
             <a href="/">Retour</a>
         </html>
     HTML;
