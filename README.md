@@ -3,6 +3,7 @@
 ## 1 - Type Juggling
 
 1 - Aller dans le dossier type-juggling
+
 2 - Lancer la commande ``php -S localhost:8888``
 
 3 - A partir d'ici vous avez accès a un formulaire en lançant ``localhost:8888`` sur votre navigateur.
