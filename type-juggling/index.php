@@ -13,7 +13,7 @@ $router->get('/', function() {
         <title>Form</title>
     </head>
     <html>
-        <form action="/login" method="POST">
+        <form action="/" method="POST">
             <label>Login</label>
             <input type="text" name="login"/>
             <label>Password</label>
