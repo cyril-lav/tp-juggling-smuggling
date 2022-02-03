@@ -1,5 +1,7 @@
 # TP Type Juggling et Request Smuggling
 
+Cours : https://docs.google.com/presentation/d/1Rf6hiFF8TDIbSktfcJp5nZhATwnWjdkWALmSTOvMsDA/edit?usp=sharing
+
 ## Préparation request-smuggling
 Afin de gagner du temps, commençons par démarrer le docker.  
 Dans le répertoire **request-smuggling** lancer la commande suivante : ``docker-compose up``   
@@ -13,7 +15,7 @@ Pendant que tout s'installe, un petit peu de type juggling ...
 2 - Lancer la commande ``php -S localhost:8888``
 
 3 - A partir d'ici vous avez accès à un formulaire en lançant ``localhost:8888`` sur votre navigateur.
-Vous pouvez vous connecter avec le mot de passe marqué en clair dans le code, néanmoins le but de l'exercice est d'utiliser le type juggling pour se connecter au compte **admin**.
+Vous pouvez vous connecter avec le mot de passe marqué en clair dans le code, néanmoins le but de l'exercice est d'utiliser le type juggling pour se connecter au compte. **admin**.
 
 *Conseil : Vous pouvez utiliser Postman pour envoyer la requête de connexion.*
 
