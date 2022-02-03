@@ -28,7 +28,7 @@ Montrez nous les modifications effectués.
 
 ## 2 - Request Smuggling
 
-Installer ncat : 
+Installer ncat dans docker-tmp : 
 `` apt update && apt install ncat``
 
 Le serveur (déjà lancé au début du tp) est accessible à l'adresse : ``localhost:8002``.  
