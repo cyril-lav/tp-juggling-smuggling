@@ -1,0 +1,2 @@
+GET /flag HTTP/1.1
+Host: 0.0.0.0:8002

@@ -1,0 +1,9 @@
+GET /hello HTTP/1.1
+Host: 0.0.0.0:8002
+Content-Length: ###COMPLETER ICI###
+Transfer-Encoding: asdchunked
+
+### COMPLETER ICI ###
+
+GET /hello HTTP/1.1
+Host: 0.0.0.0:8002

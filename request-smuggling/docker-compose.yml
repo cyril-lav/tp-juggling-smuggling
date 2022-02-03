@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  haproxy:
+    build: haproxy
+    ports:
+      - "8001:8001"
+    links:
+      - "secret_server"
+    environment:
+      - SERVER_HOSTNAME=secret_server
+      - SERVER_PORT=8000
+
+  mitmproxy:
+    build: mitmproxy
+    ports:
+      - "8002:8002"
+    links:
+      - "secret_server"
+    environment:
+      - SERVER_HOSTNAME=secret_server
+      - SERVER_PORT=8000
+
+  secret_server:
+    build: gunicornserver
